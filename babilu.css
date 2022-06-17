@@ -8,14 +8,14 @@
 }
 
 body {
-    background-image: url(https://i.stack.imgur.com/0ASXA.jpg)
+    background-image: url(https://i.stack.imgur.com/0ASXA.jpg);
     background-attachment: fixed;
 }
 
 .checklist2 {
     width: 20%;
     height: 20%;
-    margin-left: auto;
+    margin-left: 15%;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 15%;
 }
