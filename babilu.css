@@ -34,9 +34,8 @@ li {
 .buttons {
     position: absolute;
     z-index: 3;
-    width: 8%;
     margin-left: 11%;
-    margin-top: 11%
+    margin-top: 6%
 }
 
 .bigbutton {
