@@ -16,7 +16,7 @@ body {
 
 .list {
     margin-left: 15%;
-    margin-top: 15%;
+    margin-top: 10%;
     position: absolute;
     z-index: 2;
 }
@@ -29,12 +29,6 @@ li {
 .bigcheck {
     width: 2.5em;
     height: 2.5em;
-}
-
-.bigbutton {
-    width: 2em;
-    height: 2em;
-    position: absolute;
 }
 
 .buttons {
