@@ -24,7 +24,7 @@ body {
 
 li {
     font-size: 2em;
-    font: calibri;
+    font-family: calibri, arial;
 }
 
 .bigcheck {
