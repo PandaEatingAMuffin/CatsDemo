@@ -31,3 +31,16 @@ li {
     width: 2.5em;
     height: 2.5em;
 }
+
+.bigbutton {
+    width: 2em;
+    height: 2em;
+}
+
+.buttons {
+    position: absolute;
+    z-index: 3;
+    width: 8%;
+    margin-left: 11%;
+    margin-top: 11%
+}
