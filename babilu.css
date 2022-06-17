@@ -3,7 +3,6 @@
     height: 80%;
     background-color: cornsilk;
     margin-left: 10%;
-    margin-right: 10%;
     margin-top: 5%;
     position: absolute;
     z-index: 1;
@@ -16,12 +15,10 @@ body {
 }
 
 .list {
-    height: 33%;
+    height: 10%;
     width: 20%;
     margin-left: 15%;
-    margin-right: 65%;
-    margin-top: 33%;
-    margin-bottom: 34%;
+    margin-top: 10%;
     position: absolute;
     z-index: 2;
 }
