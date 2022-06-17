@@ -35,6 +35,8 @@ li {
 .bigbutton {
     width: 2em;
     height: 2em;
+    position: absolute;
+    z-index: 3;
 }
 
 .buttons {
