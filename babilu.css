@@ -1,5 +1,5 @@
 .box {
-    width: 80%;
+    width: 1100px;
     height: 751px;
     background-color: cornsilk;
     margin-left: 134px;
@@ -50,4 +50,6 @@ li {
 .kitty {
     position: absolute;
     z-index: 4;
+    margin-top: 5.75%;
+    margin-left: 797px
 }
