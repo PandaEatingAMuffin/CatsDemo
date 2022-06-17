@@ -24,4 +24,10 @@ body {
 
 li {
     font-size: 2em;
+    font: calibri;
+}
+
+.bigcheck {
+    width: 1.5em;
+    height: 1.5em;
 }
