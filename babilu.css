@@ -38,3 +38,8 @@ li {
     margin-left: 11%;
     margin-top: 11%
 }
+
+.bigbutton {
+    width: 3em;
+    height: 3em;
+}
