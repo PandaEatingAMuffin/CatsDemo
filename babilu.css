@@ -4,7 +4,8 @@
     background-color: cornsilk;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%
+    margin-top: 5%;
+    position: relative;
 }
 
 body {
@@ -19,4 +20,5 @@ body {
     margin-right: auto;
     margin-top: 33%;
     margin-bottom: 34%;
+    position: relative;
 }
