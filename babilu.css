@@ -58,5 +58,7 @@ li {
     position: absolute;
     z-index: 4;
     margin-top: 10%;
-    margin-left: 797px
+    margin-left: 797px;
+    width: 0.5em;
+    height: 0.5em;
 }
