@@ -1,6 +1,13 @@
 .checklist {
     width: 80%;
+    height: 80%;
     background-color: cornsilk;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+body {
+    background-image: url(https://images7.alphacoders.com/104/1047090.jpg)
 }
