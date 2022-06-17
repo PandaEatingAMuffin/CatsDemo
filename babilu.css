@@ -1,6 +1,6 @@
 .box {
     width: 80%;
-    height: 80%;
+    height: 751px;
     background-color: cornsilk;
     margin-left: 10%;
     margin-top: 5%;
@@ -15,8 +15,8 @@ body {
 }
 
 .list {
-    margin-left: 15%;
-    margin-top: 10%;
+    margin-left: 16%;
+    margin-top: 5.75%;
     position: absolute;
     z-index: 2;
 }
@@ -39,6 +39,6 @@ li {
 }
 
 .bigbutton {
-    width: 3em;
-    height: 3em;
+    width: 7em;
+    height: 7em;
 }
