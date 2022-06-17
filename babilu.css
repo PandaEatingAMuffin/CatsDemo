@@ -16,7 +16,6 @@ body {
 
 .list {
     height: 10%;
-    width: 20%;
     margin-left: 15%;
     margin-top: 10%;
     position: absolute;
@@ -24,5 +23,5 @@ body {
 }
 
 li {
-    font-size: 3em;
+    font-size: 2em;
 }
