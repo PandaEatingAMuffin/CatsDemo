@@ -53,3 +53,10 @@ li {
     margin-top: 5.75%;
     margin-left: 797px
 }
+
+.kitty2 {
+    position: absolute;
+    z-index: 4;
+    margin-top: 10%;
+    margin-left: 797px
+}
