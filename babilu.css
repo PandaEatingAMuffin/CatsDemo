@@ -15,9 +15,8 @@ body {
 }
 
 .list {
-    height: 10%;
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 15%;
     position: absolute;
     z-index: 2;
 }
