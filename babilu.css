@@ -31,6 +31,12 @@ li {
     height: 2.5em;
 }
 
+.bigcheck:hover {
+    width: 2.6em;
+    height: 2.6em;
+    color: rgb(18, 18, 182)
+}
+
 .buttons {
     position: absolute;
     z-index: 3;
