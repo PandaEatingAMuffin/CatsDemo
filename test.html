@@ -4,21 +4,15 @@
         <link href="test.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <input id="checkbox" type="checkbox"> 
-<script> 
-$('#checkbox').click(function(e){ 
-	if (e.target.checked) { 
-  	localStorage.checked = true; 
-  } else { 
-  	localStorage.checked = false; 
-  } 
-}) 
- 
-$( document ).ready(function() { 
-   
-	document.querySelector('#checkbox').checked = localStorage.checked 
-   
-}); 
+        <form action="/action_page.php" method="get">
+
+            <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+            
+            <input type="checkbox" name="vehicle" value="Car" checked> I have a car<br>
+            
+            <input type="submit" value="Submit">
+            
+            </form>
 </script> 
     </body>
 </html>
