@@ -29,14 +29,6 @@ li {
 .bigcheck {
     width: 2.5em;
     height: 2.5em;
-    color: white;
-    background-color: white;
-    border-color: black;
-}
-
-.bigcheck:hover {
-    color: rgb(18, 18, 182);
-    background-color: rgb(18, 18, 182);
 }
 
 .buttons {
