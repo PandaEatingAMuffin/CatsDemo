@@ -41,11 +41,12 @@ li {
 .bigbutton {
     width: 7em;
     height: 7em;
-    color: white
+    background-color: white;
+    border-color: #00000069
 }
 
 .bigbutton:hover {
-    color: azure;
+    background-color: #b0b0b0;
 }
 
 .buttons li {
