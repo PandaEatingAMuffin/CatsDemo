@@ -4,9 +4,26 @@
         <link href="test.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <input type="checkbox" name="vehicle" value="Bike" action="/action_page.php" method="get"> I have a bike<br>
-            
-        <input type="checkbox" name="vehicle" value="Car" action="/action_page.php" method="get"> I have a car<br>
+        <input type='checkbox' style='margin:-19px 0 0 732px;   border: 1px solid grey;' name='9xx'/>9xx 
+        <input type='checkbox' style='margin:-19px 0 0 36px;   border: 1px solid grey;' name='6xx'/>6xx   
+        <input type='checkbox' style='margin:-19px 0 0 30px;   border: 1px solid grey;' name='12xx'/>12xx 
+        <input type='checkbox' style='margin:-19px 0 0 21px;   border: 1px solid grey;' name='14xx'/>14xx 
+        <input type='checkbox' style='margin:-19px 0 0 26px;   border: 1px solid grey;' name='10xx'/>10xx 
+        <input type='checkbox' style='margin:-19px 0 0 31px;  border: 1px solid grey;' name='8xx'/>8xx 
+        <input type='checkbox' style='margin:-19px 0 0 31px;  border: 1px solid grey;' name='11xx'/>11xx 
+         
+        <script> 
+        $("input:checkbox:not(:checked)").each(function() { 
+            var column = "table ." + $(this).attr("name"); 
+            $(column).show(); 
+        }); 
+         
+        $("input:checkbox").click(function(){ 
+            var column = "table ." + $(this).attr("name"); 
+            $(column).toggle(); 
+        }); 
+         
+        </script> 
 </script> 
     </body>
 </html>
