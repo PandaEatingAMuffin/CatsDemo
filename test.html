@@ -4,9 +4,9 @@
         <link href="test.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <input id="checkBox" type="checkbox"> 
+        <input id="checkbox" type="checkbox"> 
 <script> 
-$('#checkBox').click(function(e){ 
+$('#checkbox').click(function(e){ 
 	if (e.target.checked) { 
   	localStorage.checked = true; 
   } else { 
@@ -16,7 +16,7 @@ $('#checkBox').click(function(e){
  
 $( document ).ready(function() { 
    
-	document.querySelector('#checkBox').checked = localStorage.checked 
+	document.querySelector('#checkbox').checked = localStorage.checked 
    
 }); 
 </script> 
