@@ -1,3 +1,4 @@
+
 const selectElement = document.querySelector('.ice-cream');
 
 selectElement.addEventListener('change', (event) => {
