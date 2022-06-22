@@ -4,5 +4,5 @@ window.addEventListener('load', (event) => {
 
 const selectElement2 = document.querySelector('.bigcheck');
 selectElement2.addEventListener('change', (event) => {
-  alert('Keppelupu is trots op je voortgang')
+  alert('Kasper is trots op je voortgang')
 })
