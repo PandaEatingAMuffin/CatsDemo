@@ -9,3 +9,8 @@ selectElement.addEventListener('change', (event) => {
 window.addEventListener('load', (event) => {
   alert('Je ziel wordt hierbij in beslag genomen door de almachtige Keppelupu')
 })
+
+const selectElement = document.querySelector('.bigcheck');
+selectElement.addEventListener('change', (event) => {
+  alert('Keppelupu is trots op je voortgang')
+}
