@@ -13,4 +13,4 @@ window.addEventListener('load', (event) => {
 const selectElement = document.querySelector('.bigcheck');
 selectElement.addEventListener('change', (event) => {
   alert('Keppelupu is trots op je voortgang')
-}
+})
