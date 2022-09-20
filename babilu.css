@@ -72,6 +72,6 @@ textarea {
     resize: none;
     outline: none;
     background-color:bisque;
-    max-height: 751px;
+    height: 20px;
     font-family: calibri, arial;
 }
