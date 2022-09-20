@@ -71,5 +71,6 @@ li {
 textarea {
     resize: none;
     outline: none;
-    background-color:bisque
+    background-color:bisque;
+    max-height: 0.5em;
 }
