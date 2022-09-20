@@ -7,18 +7,31 @@
         <div class="box"></div>
         <form action="/action_page.php" method="get">
         <ul style="list-style-type:none" class="list">
-            <li><label><input type="checkbox" class="bigcheck"> Boek schrijven <strong>8:45</strong></label></li>
-            <li><label><input type="checkbox" class="bigcheck"> Programmeren <strong>9:15</strong></label></li>
-            <li><label><input type="checkbox" class="bigcheck"> Filmpje maken <strong>10:15</strong></label></li> 
-            <li><label><input type="checkbox" class="bigcheck"> Boek schrijven <strong>10:45</strong></label></li>
-            <li><label><input type="checkbox" class="bigcheck"> Programmeren <strong>11:15</strong></label></li>
-            <li><label><input type="checkbox" class="bigcheck"> Filmpje maken <strong>12:15</strong></label></li> 
-            <li><label><input type="checkbox" class="bigcheck"> Boek schrijven <strong>12:45</strong></label></li>
-            <li><label><input type="checkbox" class="bigcheck"> Weekly Challenge <strong>13:15</strong></label></li>
-            <li><label><input type="checkbox" class="bigcheck"> Boek schrijven <strong>13:45</strong></label></li>
-            <li><label><input type="checkbox" class="bigcheck"> Weekly Challenge <strong>14:15</strong></label></li>
-            <li><label><input type="checkbox" class="bigcheck"> Boek schrijven <strong>14:45</strong></label></li>
+            <li><label><input type="checkbox" class="bigcheck">  <span id="li1"></span> <strong>8:45</strong></label></li>
+            <li><label><input type="checkbox" class="bigcheck">  <span id="li2"></span> <strong>9:15</strong></label></li>
+            <li><label><input type="checkbox" class="bigcheck"> <span id="li3"></span> <strong>10:15</strong></label></li> 
+            <li><label><input type="checkbox" class="bigcheck"> <span id="li4"></span> <strong>10:45</strong></label></li>
+            <li><label><input type="checkbox" class="bigcheck"> <span id="li5"></span> <strong>11:15</strong></label></li>
+            <li><label><input type="checkbox" class="bigcheck"> <span id="li6"></span> <strong>12:15</strong></label></li> 
+            <li><label><input type="checkbox" class="bigcheck"> <span id="li7"></span> <strong>12:45</strong></label></li>
+            <li><label><input type="checkbox" class="bigcheck"> <span id="li8"></span> <strong>13:15</strong></label></li>
+            <li><label><input type="checkbox" class="bigcheck"> <span id="li9"></span> <strong>13:45</strong></label></li>
+            <li><label><input type="checkbox" class="bigcheck"> <span id="li10"></span> <strong>14:15</strong></label></li>
+            <li><label><input type="checkbox" class="bigcheck"> <span id="li11"></span> <strong>14:45</strong></label></li>
         </ul>
+        <script>
+            document.getElementById("Li1").innerHTML = "Writing";
+            document.getElementById("Li2").innerHTML = "Programming";
+            document.getElementById("Li3").innerHTML = "Video";
+            document.getElementById("Li4").innerHTML = "Writing";
+            document.getElementById("Li5").innerHTML = "Programming";
+            document.getElementById("Li6").innerHTML = "Video";
+            document.getElementById("Li7").innerHTML = "Writing";
+            document.getElementById("Li8").innerHTML = "Programming";
+            document.getElementById("Li9").innerHTML = "Writing";
+            document.getElementById("Li10").innerHTML = "Programming";
+            document.getElementById("Li11").innerHTML = "Writing";
+          </script>
         <ul style="list-style-type:none" class="buttons">
             <li><a href="bumba.html"><button type="button" class="bigbutton"></button></a></li>
             <li><a href="index.html"><button type="button" class="bigbutton"></button></a></li>
