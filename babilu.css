@@ -67,3 +67,9 @@ li {
     width: 26.5em;
     height: 26.5em;
 }
+
+textarea {
+    resize: none;
+    outline: none;
+    background-color:bisque
+}
