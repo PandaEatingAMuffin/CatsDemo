@@ -9,7 +9,7 @@
 }
 
 body {
-    background: linear-gradient(rgb(245, 62, 113), rgb(137, 162, 27), rgb(76, 162, 27), rgb(27, 162, 110), rgb(27, 157, 162), rgb(27, 47, 162), rgb(245, 62, 113), rgb(137, 162, 27), rgb(76, 162, 27), rgb(27, 162, 110), rgb(27, 157, 162), rgb(27, 47, 162), rgb(245, 62, 113), rgb(137, 162, 27), rgb(76, 162, 27), rgb(27, 162, 110), rgb(27, 157, 162), rgb(27, 47, 162), rgb(245, 62, 113), rgb(137, 162, 27), rgb(76, 162, 27), rgb(27, 162, 110), rgb(27, 157, 162), rgb(27, 47, 162), rgb(245, 62, 113), rgb(137, 162, 27), rgb(76, 162, 27), rgb(27, 162, 110), rgb(27, 157, 162), rgb(27, 47, 162));
+    background: image(https://getflywheel.com/wp-content/uploads/2015/09/free-paper-textures-lined.jpg)
     z-index: 0;
 }
 
