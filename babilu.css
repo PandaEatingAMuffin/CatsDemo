@@ -9,7 +9,7 @@
 }
 
 body {
-    background: image(https://getflywheel.com/wp-content/uploads/2015/09/free-paper-textures-lined.jpg)
+    background: image(src = "https://getflywheel.com/wp-content/uploads/2015/09/free-paper-textures-lined.jpg");
     z-index: 0;
 }
 
