@@ -20,14 +20,6 @@ body {
     z-index: 2;
 }
 
-.colour {
-    color: rgb(196, 137, 114);
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    z-index: 4;
-}
-
 li {
     font-size: 2em;
     font-family: calibri, arial;
@@ -76,12 +68,22 @@ li {
     height: 26.5em;
 }
 
-textarea {
+textarea.lighter {
     resize: none;
     outline: none;
     border: none;
     font-size: 1.2em;
     background-color: rgb(253, 236, 215);
+    font-family: calibri, arial;
+    margin-left: 10px;
+}
+
+textarea.darker {
+    resize: none;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    background-color: rgb(204, 145, 93);
     font-family: calibri, arial;
     margin-left: 10px;
 }
